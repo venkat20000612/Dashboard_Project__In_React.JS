@@ -1,0 +1,167 @@
+/* Banner nav section-1 css starts */
+.brand-color {
+    border-bottom: 2px solid green;
+    color: green;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-back {
+    padding: 0.5px;
+    border-radius: 10px;
+}
+
+/* Banner nav section-1 css Ends */
+
+
+/* Banner nav section-2 css starts */
+
+.banner-nav {
+    padding: 2px;
+    border-radius: 10px;
+}
+
+
+.banner-nav .range-dropdown {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.banner-nav .checked-opitions {
+    margin: 10px 20px;
+}
+
+.banner-nav .filter-back span {
+    background-color: green;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* Banner nav section-2 css Ends */
+
+/* Cards Section css starts */
+
+.banner-icon i {
+    color: grey;
+    background-color: linen;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.banner-icon2 i {
+    color: grey;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.banner-icon3 i {
+    color: grey;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.banner-icon4 i {
+    color: grey;
+    background-color: lightsteelblue;
+    border-radius: 48%;
+    padding: 10px;
+}
+
+
+
+.text1 {
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-number {
+    font-weight: 600;
+}
+
+.period {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.banner-icon:hover {
+    transform: translateY(-4px);
+    transition: 0.5s;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.banner-icon {
+    border-left: 3px solid lightpink;
+}
+
+.banner-icon2 {
+    border-left: 3px solid lightskyblue;
+}
+
+.banner-icon3 {
+    border-left: 3px solid lightgreen;
+}
+
+.banner-icon4 {
+    border-left: 3px solid lightsteelblue;
+}
+
+/* Cards Section css Ends */
+
+/* Table Section Css Starts */
+
+.table-lines {
+    text-align: center;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid grey;
+}
+
+th {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+td {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tableicon1 {
+    margin-right: 10px;
+}
+
+.tableicon i {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tableicon i:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.tableicon h6 {
+     font-size: 15px;
+     font-weight: 600;
+}
+
+.tableicon {
+     background-color: white;
+}
+
+.table-section nav table {
+    background-color: white;
+    padding: 10px;
+}
+/* Table Sction Css Ends */

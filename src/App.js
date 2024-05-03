@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Sidenavbar from './Components/Sidenavbar'
+// import Home from './Components/Home'
+import Navbar from './Components/Navbar'
+import Titlesection from './Components/Titlesection'
+import Home from './Components/Home'
+// import Nav from './Components/Nav'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-light'>
+    <div className='container-fluid bg-grey'>
+      <div className='row'>
+        <div className='col-2 bg-white'>
+          <Sidenavbar />
+        </div>
+        <div className='col'>
+         <Navbar/>
+         <Home/>
+        </div>
+            
+        
+      </div>
+      
     </div>
-  );
+    
+    </div>
+
+  )
 }
 
-export default App;
+export default App
